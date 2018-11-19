@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846FAB4121A365C40012C2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB4021A365C40012C2FD /* AppDelegate.swift */; };
+		846FAB4321A365C40012C2FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB4221A365C40012C2FD /* ViewController.swift */; };
+		846FAB4621A365C40012C2FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FAB4421A365C40012C2FD /* Main.storyboard */; };
+		846FAB4921A365C40012C2FD /* POPWWDC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB4721A365C40012C2FD /* POPWWDC.xcdatamodeld */; };
+		846FAB4B21A365C60012C2FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846FAB4A21A365C60012C2FD /* Assets.xcassets */; };
+		846FAB4E21A365C60012C2FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FAB4C21A365C60012C2FD /* LaunchScreen.storyboard */; };
+		846FAB5921A365C60012C2FD /* POPWWDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB5821A365C60012C2FD /* POPWWDCTests.swift */; };
+		846FAB6421A365C60012C2FD /* POPWWDCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB6321A365C60012C2FD /* POPWWDCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846FAB5521A365C60012C2FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846FAB3521A365C40012C2FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846FAB3C21A365C40012C2FD;
+			remoteInfo = POPWWDC;
+		};
+		846FAB6021A365C60012C2FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846FAB3521A365C40012C2FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846FAB3C21A365C40012C2FD;
+			remoteInfo = POPWWDC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846FAB3D21A365C40012C2FD /* POPWWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPWWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FAB4021A365C40012C2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846FAB4221A365C40012C2FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846FAB4521A365C40012C2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846FAB4821A365C40012C2FD /* POPWWDC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POPWWDC.xcdatamodel; sourceTree = "<group>"; };
+		846FAB4A21A365C60012C2FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846FAB4D21A365C60012C2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846FAB4F21A365C60012C2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846FAB5421A365C60012C2FD /* POPWWDCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPWWDCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FAB5821A365C60012C2FD /* POPWWDCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPWWDCTests.swift; sourceTree = "<group>"; };
+		846FAB5A21A365C60012C2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846FAB5F21A365C60012C2FD /* POPWWDCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPWWDCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846FAB6321A365C60012C2FD /* POPWWDCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPWWDCUITests.swift; sourceTree = "<group>"; };
+		846FAB6521A365C60012C2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846FAB3A21A365C40012C2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAB5121A365C60012C2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAB5C21A365C60012C2FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846FAB3421A365C40012C2FD = {
+			isa = PBXGroup;
+			children = (
+				846FAB3F21A365C40012C2FD /* POPWWDC */,
+				846FAB5721A365C60012C2FD /* POPWWDCTests */,
+				846FAB6221A365C60012C2FD /* POPWWDCUITests */,
+				846FAB3E21A365C40012C2FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846FAB3E21A365C40012C2FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846FAB3D21A365C40012C2FD /* POPWWDC.app */,
+				846FAB5421A365C60012C2FD /* POPWWDCTests.xctest */,
+				846FAB5F21A365C60012C2FD /* POPWWDCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846FAB3F21A365C40012C2FD /* POPWWDC */ = {
+			isa = PBXGroup;
+			children = (
+				846FAB4021A365C40012C2FD /* AppDelegate.swift */,
+				846FAB4221A365C40012C2FD /* ViewController.swift */,
+				846FAB4421A365C40012C2FD /* Main.storyboard */,
+				846FAB4A21A365C60012C2FD /* Assets.xcassets */,
+				846FAB4C21A365C60012C2FD /* LaunchScreen.storyboard */,
+				846FAB4F21A365C60012C2FD /* Info.plist */,
+				846FAB4721A365C40012C2FD /* POPWWDC.xcdatamodeld */,
+			);
+			path = POPWWDC;
+			sourceTree = "<group>";
+		};
+		846FAB5721A365C60012C2FD /* POPWWDCTests */ = {
+			isa = PBXGroup;
+			children = (
+				846FAB5821A365C60012C2FD /* POPWWDCTests.swift */,
+				846FAB5A21A365C60012C2FD /* Info.plist */,
+			);
+			path = POPWWDCTests;
+			sourceTree = "<group>";
+		};
+		846FAB6221A365C60012C2FD /* POPWWDCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846FAB6321A365C60012C2FD /* POPWWDCUITests.swift */,
+				846FAB6521A365C60012C2FD /* Info.plist */,
+			);
+			path = POPWWDCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846FAB3C21A365C40012C2FD /* POPWWDC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846FAB6821A365C60012C2FD /* Build configuration list for PBXNativeTarget "POPWWDC" */;
+			buildPhases = (
+				846FAB3921A365C40012C2FD /* Sources */,
+				846FAB3A21A365C40012C2FD /* Frameworks */,
+				846FAB3B21A365C40012C2FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POPWWDC;
+			productName = POPWWDC;
+			productReference = 846FAB3D21A365C40012C2FD /* POPWWDC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846FAB5321A365C60012C2FD /* POPWWDCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846FAB6B21A365C60012C2FD /* Build configuration list for PBXNativeTarget "POPWWDCTests" */;
+			buildPhases = (
+				846FAB5021A365C60012C2FD /* Sources */,
+				846FAB5121A365C60012C2FD /* Frameworks */,
+				846FAB5221A365C60012C2FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846FAB5621A365C60012C2FD /* PBXTargetDependency */,
+			);
+			name = POPWWDCTests;
+			productName = POPWWDCTests;
+			productReference = 846FAB5421A365C60012C2FD /* POPWWDCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846FAB5E21A365C60012C2FD /* POPWWDCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846FAB6E21A365C60012C2FD /* Build configuration list for PBXNativeTarget "POPWWDCUITests" */;
+			buildPhases = (
+				846FAB5B21A365C60012C2FD /* Sources */,
+				846FAB5C21A365C60012C2FD /* Frameworks */,
+				846FAB5D21A365C60012C2FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846FAB6121A365C60012C2FD /* PBXTargetDependency */,
+			);
+			name = POPWWDCUITests;
+			productName = POPWWDCUITests;
+			productReference = 846FAB5F21A365C60012C2FD /* POPWWDCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846FAB3521A365C40012C2FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					846FAB3C21A365C40012C2FD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					846FAB5321A365C60012C2FD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 846FAB3C21A365C40012C2FD;
+					};
+					846FAB5E21A365C60012C2FD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 846FAB3C21A365C40012C2FD;
+					};
+				};
+			};
+			buildConfigurationList = 846FAB3821A365C40012C2FD /* Build configuration list for PBXProject "POPWWDC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846FAB3421A365C40012C2FD;
+			productRefGroup = 846FAB3E21A365C40012C2FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846FAB3C21A365C40012C2FD /* POPWWDC */,
+				846FAB5321A365C60012C2FD /* POPWWDCTests */,
+				846FAB5E21A365C60012C2FD /* POPWWDCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846FAB3B21A365C40012C2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FAB4E21A365C60012C2FD /* LaunchScreen.storyboard in Resources */,
+				846FAB4B21A365C60012C2FD /* Assets.xcassets in Resources */,
+				846FAB4621A365C40012C2FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAB5221A365C60012C2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAB5D21A365C60012C2FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846FAB3921A365C40012C2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FAB4321A365C40012C2FD /* ViewController.swift in Sources */,
+				846FAB4121A365C40012C2FD /* AppDelegate.swift in Sources */,
+				846FAB4921A365C40012C2FD /* POPWWDC.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAB5021A365C60012C2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FAB5921A365C60012C2FD /* POPWWDCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAB5B21A365C60012C2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846FAB6421A365C60012C2FD /* POPWWDCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846FAB5621A365C60012C2FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846FAB3C21A365C40012C2FD /* POPWWDC */;
+			targetProxy = 846FAB5521A365C60012C2FD /* PBXContainerItemProxy */;
+		};
+		846FAB6121A365C60012C2FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846FAB3C21A365C40012C2FD /* POPWWDC */;
+			targetProxy = 846FAB6021A365C60012C2FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846FAB4421A365C40012C2FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846FAB4521A365C40012C2FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846FAB4C21A365C60012C2FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846FAB4D21A365C60012C2FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846FAB6621A365C60012C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846FAB6721A365C60012C2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846FAB6921A365C60012C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = POPWWDC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POPWWDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846FAB6A21A365C60012C2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = POPWWDC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POPWWDC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846FAB6C21A365C60012C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = POPWWDCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POPWWDCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPWWDC.app/POPWWDC";
+			};
+			name = Debug;
+		};
+		846FAB6D21A365C60012C2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = POPWWDCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POPWWDCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POPWWDC.app/POPWWDC";
+			};
+			name = Release;
+		};
+		846FAB6F21A365C60012C2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = POPWWDCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POPWWDCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POPWWDC;
+			};
+			name = Debug;
+		};
+		846FAB7021A365C60012C2FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = POPWWDCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.POPWWDCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = POPWWDC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846FAB3821A365C40012C2FD /* Build configuration list for PBXProject "POPWWDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FAB6621A365C60012C2FD /* Debug */,
+				846FAB6721A365C60012C2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846FAB6821A365C60012C2FD /* Build configuration list for PBXNativeTarget "POPWWDC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FAB6921A365C60012C2FD /* Debug */,
+				846FAB6A21A365C60012C2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846FAB6B21A365C60012C2FD /* Build configuration list for PBXNativeTarget "POPWWDCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FAB6C21A365C60012C2FD /* Debug */,
+				846FAB6D21A365C60012C2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846FAB6E21A365C60012C2FD /* Build configuration list for PBXNativeTarget "POPWWDCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846FAB6F21A365C60012C2FD /* Debug */,
+				846FAB7021A365C60012C2FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		846FAB4721A365C40012C2FD /* POPWWDC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				846FAB4821A365C40012C2FD /* POPWWDC.xcdatamodel */,
+			);
+			currentVersion = 846FAB4821A365C40012C2FD /* POPWWDC.xcdatamodel */;
+			path = POPWWDC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 846FAB3521A365C40012C2FD /* Project object */;
+}
