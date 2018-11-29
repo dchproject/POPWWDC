@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841D13EE21A48DB50035BDD0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D13ED21A48DB50035BDD0 /* Protocols.swift */; };
 		846FAB4121A365C40012C2FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB4021A365C40012C2FD /* AppDelegate.swift */; };
 		846FAB4321A365C40012C2FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FAB4221A365C40012C2FD /* ViewController.swift */; };
 		846FAB4621A365C40012C2FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FAB4421A365C40012C2FD /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841D13ED21A48DB50035BDD0 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		846FAB3D21A365C40012C2FD /* POPWWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POPWWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FAB4021A365C40012C2FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846FAB4221A365C40012C2FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841D13EC21A48D940035BDD0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				841D13ED21A48DB50035BDD0 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		846FAB3421A365C40012C2FD = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		846FAB3F21A365C40012C2FD /* POPWWDC */ = {
 			isa = PBXGroup;
 			children = (
+				841D13EC21A48D940035BDD0 /* Protocols */,
 				846FAB4021A365C40012C2FD /* AppDelegate.swift */,
 				846FAB4221A365C40012C2FD /* ViewController.swift */,
 				846FAB4421A365C40012C2FD /* Main.storyboard */,
@@ -262,6 +273,7 @@
 				846FAB4321A365C40012C2FD /* ViewController.swift in Sources */,
 				846FAB4121A365C40012C2FD /* AppDelegate.swift in Sources */,
 				846FAB4921A365C40012C2FD /* POPWWDC.xcdatamodeld in Sources */,
+				841D13EE21A48DB50035BDD0 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
